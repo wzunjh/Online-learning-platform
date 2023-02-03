@@ -2,7 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/xuecheng-plus-base/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/config/LocalDateTimeConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/content/base/config/LocalDateTimeConfig.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-content/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-content/src/main/resources" charset="UTF-8" />
@@ -12,6 +12,10 @@
     <file url="file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/java/com/xuecheng/content/ContentApplication.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/resources/log4j2-dev.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-generator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-parent/src/main/java" charset="UTF-8" />
