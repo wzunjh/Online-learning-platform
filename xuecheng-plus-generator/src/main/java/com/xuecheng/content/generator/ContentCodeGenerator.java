@@ -30,10 +30,10 @@ public class ContentCodeGenerator {
 			 "course_market",
 			 "teachplan",
 			 "teachplan_media",
-			 "course_teacher"
+			 "course_teacher",
+			"course_category"
 //			 "course_publish",
 //			 "course_publish_pre"
-//			"course_category"
 	};
 
 	// TODO 默认生成entity，需要生成DTO修改此变量

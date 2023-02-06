@@ -10,3 +10,5 @@ spring:
 
 logging:
  config: classpath:log4j2-dev.xml
+mybatis-plus:
+   mapper-locations: classpath:mapper/*.xml

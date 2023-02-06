@@ -7,6 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="xuecheng-plus-system-service" />
+        <module name="xuecheng-plus-system-model" />
+        <module name="xuecheng-plus-system-api" />
         <module name="xuecheng-plus-content-service" />
         <module name="xuecheng-plus-content-api" />
         <module name="xuecheng-plus-content-model" />
