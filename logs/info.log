@@ -2838,3 +2838,941 @@ com.xuecheng.base.execption.XueChengPlusException: 前端有问题,功能暂未实现
 2023-02-07 20:17:49,272 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
 2023-02-07 20:17:54,417 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
 2023-02-07 20:17:54,417 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-07 20:17:58,856 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-02-07 20:17:58,856 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-02-07 20:17:58,863 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-02-07 20:17:58,863 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-02-07 20:17:58,870 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-02-07 20:17:58,870 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-02-07 20:17:58,872 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-02-07 20:17:58,872 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-02-07 20:17:58,873 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-02-07 20:17:58,873 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-02-07 20:17:58,873 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-02-07 20:17:58,873 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-02-07 20:17:58,878 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-02-07 20:17:58,878 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-02-07 20:17:58,898 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-02-07 20:17:58,898 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-02-07 20:17:59,028 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-02-07 20:17:59,028 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-02-07 20:17:59,034 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-02-07 20:17:59,034 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-02-07 20:17:59,035 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-02-07 20:17:59,035 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-02-07 20:17:59,035 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-02-07 20:17:59,035 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-02-07 20:17:59,035 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-02-07 20:17:59,035 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-02-07 20:17:59,036 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-02-07 20:17:59,036 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-02-07 20:17:59,191 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-07 20:17:59,191 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-07 20:17:59,305 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-02-07 20:17:59,305 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-02-07 20:17:59,918 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-07 20:17:59,918 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-02-07 20:17:59,993 INFO [main][GenericScope.java:295] - BeanFactory id=4700a9f0-37d5-3a65-a999-d73266d1ecbf
+2023-02-07 20:17:59,993 INFO [main][GenericScope.java:295] - BeanFactory id=4700a9f0-37d5-3a65-a999-d73266d1ecbf
+2023-02-07 20:18:00,247 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-02-07 20:18:00,247 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-02-07 20:18:00,256 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-02-07 20:18:00,256 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-02-07 20:18:00,257 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-02-07 20:18:00,257 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-02-07 20:18:00,258 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-07 20:18:00,258 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-02-07 20:18:00,259 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-02-07 20:18:00,259 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-02-07 20:18:00,260 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-07 20:18:00,260 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-02-07 20:18:00,261 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-07 20:18:00,261 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-02-07 20:18:00,265 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-02-07 20:18:00,265 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-02-07 20:18:00,367 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-02-07 20:18:00,367 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-02-07 20:18:00,368 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1050 ms
+2023-02-07 20:18:00,368 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1050 ms
+2023-02-07 20:18:00,474 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@27c170f0
+2023-02-07 20:18:00,474 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@27c170f0
+2023-02-07 20:18:00,528 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7cdb7fc'
+2023-02-07 20:18:00,528 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7cdb7fc'
+2023-02-07 20:18:00,587 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-02-07 20:18:00,587 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectTreeNodes
+2023-02-07 20:18:00,615 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.insert
+2023-02-07 20:18:00,615 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.insert
+2023-02-07 20:18:00,619 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.delete
+2023-02-07 20:18:00,619 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.delete
+2023-02-07 20:18:00,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteByMap
+2023-02-07 20:18:00,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteByMap
+2023-02-07 20:18:00,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteById
+2023-02-07 20:18:00,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteById
+2023-02-07 20:18:00,625 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-02-07 20:18:00,625 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.deleteBatchIds
+2023-02-07 20:18:00,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.update
+2023-02-07 20:18:00,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.update
+2023-02-07 20:18:00,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.updateById
+2023-02-07 20:18:00,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.updateById
+2023-02-07 20:18:00,630 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectById
+2023-02-07 20:18:00,630 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectById
+2023-02-07 20:18:00,632 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-02-07 20:18:00,632 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectBatchIds
+2023-02-07 20:18:00,633 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectByMap
+2023-02-07 20:18:00,633 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectByMap
+2023-02-07 20:18:00,635 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectOne
+2023-02-07 20:18:00,635 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectOne
+2023-02-07 20:18:00,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectCount
+2023-02-07 20:18:00,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectCount
+2023-02-07 20:18:00,639 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectMaps
+2023-02-07 20:18:00,639 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectMaps
+2023-02-07 20:18:00,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-02-07 20:18:00,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectMapsPage
+2023-02-07 20:18:00,642 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectObjs
+2023-02-07 20:18:00,642 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectObjs
+2023-02-07 20:18:00,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectList
+2023-02-07 20:18:00,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectList
+2023-02-07 20:18:00,646 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectPage
+2023-02-07 20:18:00,646 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseCategoryMapper.selectPage
+2023-02-07 20:18:00,647 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [C:\Users\27877\JAVA-Project\xuncheng-springcloud\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'
+2023-02-07 20:18:00,647 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [C:\Users\27877\JAVA-Project\xuncheng-springcloud\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'
+2023-02-07 20:18:00,662 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectTreeNodes
+2023-02-07 20:18:00,662 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectTreeNodes
+2023-02-07 20:18:00,667 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-02-07 20:18:00,667 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.insert
+2023-02-07 20:18:00,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-02-07 20:18:00,670 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.delete
+2023-02-07 20:18:00,672 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-02-07 20:18:00,672 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteByMap
+2023-02-07 20:18:00,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-02-07 20:18:00,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteById
+2023-02-07 20:18:00,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-02-07 20:18:00,673 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.deleteBatchIds
+2023-02-07 20:18:00,675 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-02-07 20:18:00,675 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.update
+2023-02-07 20:18:00,677 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-02-07 20:18:00,677 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.updateById
+2023-02-07 20:18:00,678 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-02-07 20:18:00,678 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectById
+2023-02-07 20:18:00,679 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-02-07 20:18:00,679 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectBatchIds
+2023-02-07 20:18:00,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-02-07 20:18:00,681 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectByMap
+2023-02-07 20:18:00,682 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-02-07 20:18:00,682 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectOne
+2023-02-07 20:18:00,684 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-02-07 20:18:00,684 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectCount
+2023-02-07 20:18:00,687 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-02-07 20:18:00,687 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMaps
+2023-02-07 20:18:00,689 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-02-07 20:18:00,689 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectMapsPage
+2023-02-07 20:18:00,691 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-02-07 20:18:00,691 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectObjs
+2023-02-07 20:18:00,694 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-02-07 20:18:00,694 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectList
+2023-02-07 20:18:00,696 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-02-07 20:18:00,696 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMapper.selectPage
+2023-02-07 20:18:00,697 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [C:\Users\27877\JAVA-Project\xuncheng-springcloud\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-02-07 20:18:00,697 DEBUG [main][Logger.java:49] - Parsed mapper file: 'file [C:\Users\27877\JAVA-Project\xuncheng-springcloud\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\TeachplanMapper.xml]'
+2023-02-07 20:18:00,755 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-02-07 20:18:00,755 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.insert
+2023-02-07 20:18:00,757 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-02-07 20:18:00,757 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.delete
+2023-02-07 20:18:00,759 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-02-07 20:18:00,759 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteByMap
+2023-02-07 20:18:00,761 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-02-07 20:18:00,761 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteById
+2023-02-07 20:18:00,762 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-02-07 20:18:00,762 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.deleteBatchIds
+2023-02-07 20:18:00,764 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-02-07 20:18:00,764 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.update
+2023-02-07 20:18:00,766 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-02-07 20:18:00,766 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.updateById
+2023-02-07 20:18:00,767 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-02-07 20:18:00,767 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectById
+2023-02-07 20:18:00,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-02-07 20:18:00,769 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectBatchIds
+2023-02-07 20:18:00,770 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-02-07 20:18:00,770 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectByMap
+2023-02-07 20:18:00,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-02-07 20:18:00,772 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectOne
+2023-02-07 20:18:00,773 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-02-07 20:18:00,773 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectCount
+2023-02-07 20:18:00,776 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-02-07 20:18:00,776 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMaps
+2023-02-07 20:18:00,778 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-02-07 20:18:00,778 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectMapsPage
+2023-02-07 20:18:00,780 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-02-07 20:18:00,780 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectObjs
+2023-02-07 20:18:00,781 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-02-07 20:18:00,781 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectList
+2023-02-07 20:18:00,783 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-02-07 20:18:00,783 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseBaseMapper.selectPage
+2023-02-07 20:18:00,790 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-02-07 20:18:00,790 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.insert
+2023-02-07 20:18:00,793 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-02-07 20:18:00,793 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.delete
+2023-02-07 20:18:00,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-02-07 20:18:00,795 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteByMap
+2023-02-07 20:18:00,797 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-02-07 20:18:00,797 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteById
+2023-02-07 20:18:00,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-02-07 20:18:00,799 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.deleteBatchIds
+2023-02-07 20:18:00,800 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-02-07 20:18:00,800 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.update
+2023-02-07 20:18:00,802 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-02-07 20:18:00,802 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.updateById
+2023-02-07 20:18:00,803 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-02-07 20:18:00,803 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectById
+2023-02-07 20:18:00,805 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-02-07 20:18:00,805 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectBatchIds
+2023-02-07 20:18:00,806 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-02-07 20:18:00,806 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectByMap
+2023-02-07 20:18:00,808 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-02-07 20:18:00,808 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectOne
+2023-02-07 20:18:00,810 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-02-07 20:18:00,810 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectCount
+2023-02-07 20:18:00,811 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-02-07 20:18:00,811 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMaps
+2023-02-07 20:18:00,813 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-02-07 20:18:00,813 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectMapsPage
+2023-02-07 20:18:00,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-02-07 20:18:00,814 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectObjs
+2023-02-07 20:18:00,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-02-07 20:18:00,815 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectList
+2023-02-07 20:18:00,817 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-02-07 20:18:00,817 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseMarketMapper.selectPage
+2023-02-07 20:18:00,865 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-02-07 20:18:00,865 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.insert
+2023-02-07 20:18:00,866 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-02-07 20:18:00,866 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.delete
+2023-02-07 20:18:00,866 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-02-07 20:18:00,866 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteByMap
+2023-02-07 20:18:00,868 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-02-07 20:18:00,868 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteById
+2023-02-07 20:18:00,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-02-07 20:18:00,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.deleteBatchIds
+2023-02-07 20:18:00,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-02-07 20:18:00,869 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.update
+2023-02-07 20:18:00,871 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-02-07 20:18:00,871 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.updateById
+2023-02-07 20:18:00,871 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-02-07 20:18:00,871 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectById
+2023-02-07 20:18:00,872 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-02-07 20:18:00,872 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectBatchIds
+2023-02-07 20:18:00,873 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-02-07 20:18:00,873 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectByMap
+2023-02-07 20:18:00,874 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-02-07 20:18:00,874 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectOne
+2023-02-07 20:18:00,875 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-02-07 20:18:00,875 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectCount
+2023-02-07 20:18:00,876 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-02-07 20:18:00,876 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMaps
+2023-02-07 20:18:00,877 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-02-07 20:18:00,877 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectMapsPage
+2023-02-07 20:18:00,878 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-02-07 20:18:00,878 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectObjs
+2023-02-07 20:18:00,881 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-02-07 20:18:00,881 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectList
+2023-02-07 20:18:00,881 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-02-07 20:18:00,881 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.CourseTeacherMapper.selectPage
+2023-02-07 20:18:01,165 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-07 20:18:01,165 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-02-07 20:18:01,189 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-02-07 20:18:01,189 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-02-07 20:18:01,192 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-02-07 20:18:01,192 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-02-07 20:18:01,192 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-02-07 20:18:01,192 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-02-07 20:18:01,193 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-02-07 20:18:01,193 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-02-07 20:18:01,193 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-02-07 20:18:01,193 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-02-07 20:18:01,194 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-02-07 20:18:01,194 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-02-07 20:18:01,194 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-02-07 20:18:01,194 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-02-07 20:18:01,194 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-02-07 20:18:01,194 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-02-07 20:18:01,195 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-02-07 20:18:01,195 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-02-07 20:18:01,195 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-02-07 20:18:01,195 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-02-07 20:18:01,196 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-02-07 20:18:01,196 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-02-07 20:18:01,197 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-02-07 20:18:01,197 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-02-07 20:18:01,198 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-02-07 20:18:01,198 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-02-07 20:18:01,198 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-02-07 20:18:01,198 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-02-07 20:18:01,198 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-02-07 20:18:01,198 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-02-07 20:18:01,198 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-02-07 20:18:01,198 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-02-07 20:18:01,249 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-07 20:18:01,249 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-07 20:18:01,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-02-07 20:18:01,384 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.insert
+2023-02-07 20:18:01,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-02-07 20:18:01,386 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.delete
+2023-02-07 20:18:01,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-02-07 20:18:01,387 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteByMap
+2023-02-07 20:18:01,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-02-07 20:18:01,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteById
+2023-02-07 20:18:01,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-02-07 20:18:01,389 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.deleteBatchIds
+2023-02-07 20:18:01,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-02-07 20:18:01,390 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.update
+2023-02-07 20:18:01,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-02-07 20:18:01,392 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.updateById
+2023-02-07 20:18:01,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-02-07 20:18:01,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectById
+2023-02-07 20:18:01,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-02-07 20:18:01,393 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectBatchIds
+2023-02-07 20:18:01,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-02-07 20:18:01,394 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectByMap
+2023-02-07 20:18:01,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-02-07 20:18:01,396 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectOne
+2023-02-07 20:18:01,397 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-02-07 20:18:01,397 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectCount
+2023-02-07 20:18:01,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-02-07 20:18:01,398 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMaps
+2023-02-07 20:18:01,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-02-07 20:18:01,399 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectMapsPage
+2023-02-07 20:18:01,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-02-07 20:18:01,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectObjs
+2023-02-07 20:18:01,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-02-07 20:18:01,402 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectList
+2023-02-07 20:18:01,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-02-07 20:18:01,403 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.content.mapper.TeachplanMediaMapper.selectPage
+2023-02-07 20:18:01,455 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-02-07 20:18:01,455 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-02-07 20:18:01,487 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2023-02-07 20:18:01,487 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2023-02-07 20:18:01,488 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-02-07 20:18:01,488 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-02-07 20:18:01,499 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-02-07 20:18:01,499 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-02-07 20:18:01,529 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-02-07 20:18:01,529 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-02-07 20:18:01,709 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 3.245 seconds (JVM running for 4.09)
+2023-02-07 20:18:01,709 INFO [main][StartupInfoLogger.java:61] - Started ContentApiApplication in 3.245 seconds (JVM running for 4.09)
+2023-02-07 20:18:08,567 DEBUG [http-nio-63110-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2023-02-07 20:18:08,567 DEBUG [http-nio-63110-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2023-02-07 20:18:08,568 DEBUG [http-nio-63110-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-02-07 20:18:08,568 DEBUG [http-nio-63110-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-02-07 20:18:08,572 DEBUG [http-nio-63110-exec-5][BaseJdbcLogger.java:137] - <==      Total: 17
+2023-02-07 20:18:08,572 DEBUG [http-nio-63110-exec-5][BaseJdbcLogger.java:137] - <==      Total: 17
+2023-02-07 20:18:08,746 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07 20:18:08,746 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-07 20:18:08,747 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-02-07 20:18:08,747 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-02-07 20:18:08,751 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2023-02-07 20:18:08,751 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2023-02-07 20:18:08,793 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-02-07 20:18:08,793 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - autoCommit......................true
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - autoCommit......................true
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - catalog.........................none
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - catalog.........................none
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - connectionInitSql...............none
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - connectionInitSql...............none
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-02-07 20:18:08,795 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-02-07 20:18:08,796 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-02-07 20:18:08,796 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-02-07 20:18:08,796 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - dataSource......................none
+2023-02-07 20:18:08,796 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - dataSource......................none
+2023-02-07 20:18:08,797 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-02-07 20:18:08,797 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-02-07 20:18:08,797 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-02-07 20:18:08,797 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-02-07 20:18:08,797 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-02-07 20:18:08,797 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-02-07 20:18:08,797 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-02-07 20:18:08,797 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false
+2023-02-07 20:18:08,798 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - metricRegistry..................none
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - metricRegistry..................none
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-02-07 20:18:08,799 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - minimumIdle.....................10
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - minimumIdle.....................10
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - password........................<masked>
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - password........................<masked>
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - readOnly........................false
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - readOnly........................false
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - registerMbeans..................false
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - registerMbeans..................false
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - schema..........................none
+2023-02-07 20:18:08,800 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - schema..........................none
+2023-02-07 20:18:08,801 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - threadFactory...................internal
+2023-02-07 20:18:08,801 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - threadFactory...................internal
+2023-02-07 20:18:08,801 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - transactionIsolation............default
+2023-02-07 20:18:08,801 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - transactionIsolation............default
+2023-02-07 20:18:08,801 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - username........................"root"
+2023-02-07 20:18:08,801 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - username........................"root"
+2023-02-07 20:18:08,801 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - validationTimeout...............5000
+2023-02-07 20:18:08,801 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1098] - validationTimeout...............5000
+2023-02-07 20:18:08,801 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-02-07 20:18:08,801 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-02-07 20:18:08,920 DEBUG [http-nio-63040-exec-1][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c9a1e25
+2023-02-07 20:18:08,920 DEBUG [http-nio-63040-exec-1][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c9a1e25
+2023-02-07 20:18:08,922 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-02-07 20:18:08,922 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-02-07 20:18:08,928 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: with recursive t1 as ( select * from course_category p where id= ? union all select t.* from course_category t inner join t1 on t1.id = t.parentid ) select * from t1 order by t1.id, t1.orderby
+2023-02-07 20:18:08,928 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: with recursive t1 as ( select * from course_category p where id= ? union all select t.* from course_category t inner join t1 on t1.id = t.parentid ) select * from t1 order by t1.id, t1.orderby
+2023-02-07 20:18:08,929 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ef1f99c
+2023-02-07 20:18:08,929 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ef1f99c
+2023-02-07 20:18:08,929 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-02-07 20:18:08,929 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-02-07 20:18:08,949 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:08,949 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:08,949 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-02-07 20:18:08,949 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-02-07 20:18:08,979 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:08,979 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:08,981 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 144
+2023-02-07 20:18:08,981 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 144
+2023-02-07 20:18:08,988 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-02-07 20:18:08,988 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-02-07 20:18:08,989 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:08,989 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:08,992 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:08,992 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:09,008 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-02-07 20:18:09,008 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-02-07 20:18:09,010 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 1-3-2(String)
+2023-02-07 20:18:09,010 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 1-3-2(String)
+2023-02-07 20:18:09,012 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:09,012 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:09,012 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-02-07 20:18:09,012 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-02-07 20:18:09,013 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-02-07 20:18:09,013 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-02-07 20:18:09,013 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:09,013 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:09,022 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=2, active=0, idle=2, waiting=0)
+2023-02-07 20:18:09,022 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=2, active=0, idle=2, waiting=0)
+2023-02-07 20:18:09,028 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fccf3a7
+2023-02-07 20:18:09,028 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fccf3a7
+2023-02-07 20:18:09,034 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e29ff84
+2023-02-07 20:18:09,034 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e29ff84
+2023-02-07 20:18:09,039 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fe30ce8
+2023-02-07 20:18:09,039 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fe30ce8
+2023-02-07 20:18:09,045 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f6462d0
+2023-02-07 20:18:09,045 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f6462d0
+2023-02-07 20:18:09,050 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bad37a2
+2023-02-07 20:18:09,050 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bad37a2
+2023-02-07 20:18:09,056 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a944db0
+2023-02-07 20:18:09,056 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a944db0
+2023-02-07 20:18:09,062 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7357c976
+2023-02-07 20:18:09,062 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7357c976
+2023-02-07 20:18:09,067 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b068291
+2023-02-07 20:18:09,067 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b068291
+2023-02-07 20:18:09,067 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-02-07 20:18:09,067 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-02-07 20:18:10,589 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-02-07 20:18:10,589 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-02-07 20:18:10,591 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,591 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,594 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,594 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,618 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_base SET company_id=?, name=?, users=?, tags=?, mt=?, st=?, grade=?, teachmode=?, pic=?, create_date=?, change_date=?, create_people=?, audit_status=?, status=? WHERE id=?
+2023-02-07 20:18:10,618 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_base SET company_id=?, name=?, users=?, tags=?, mt=?, st=?, grade=?, teachmode=?, pic=?, create_date=?, change_date=?, create_people=?, audit_status=?, status=? WHERE id=?
+2023-02-07 20:18:10,623 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), JAVA8/9/10新特性讲解(String), java爱好者,有一定java基础(String), 有个java 版本变化的新内容，帮助大家使用最新的思想和工具(String), 1(String), 1-3-2(String), 204002(String), 200002(String), https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg(String), 2019-09-03T17:48:19(LocalDateTime), 2023-02-07T20:18:10.599542900(LocalDateTime), 1(String), 202004(String), 203001(String), 1(Long)
+2023-02-07 20:18:10,623 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), JAVA8/9/10新特性讲解(String), java爱好者,有一定java基础(String), 有个java 版本变化的新内容，帮助大家使用最新的思想和工具(String), 1(String), 1-3-2(String), 204002(String), 200002(String), https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg(String), 2019-09-03T17:48:19(LocalDateTime), 2023-02-07T20:18:10.599542900(LocalDateTime), 1(String), 202004(String), 203001(String), 1(Long)
+2023-02-07 20:18:10,627 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-02-07 20:18:10,627 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-02-07 20:18:10,628 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-02-07 20:18:10,628 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-02-07 20:18:10,628 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,628 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,629 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,629 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,635 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_market SET charge=?, price=?, original_price=?, qq=?, wechat=?, phone=?, valid_days=? WHERE id=?
+2023-02-07 20:18:10,635 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_market SET charge=?, price=?, original_price=?, qq=?, wechat=?, phone=?, valid_days=? WHERE id=?
+2023-02-07 20:18:10,639 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 201001(String), 2.0(Float), 11.0(Float), 1(String), 1(String), 1(String), 1(Integer), 1(Long)
+2023-02-07 20:18:10,639 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 201001(String), 2.0(Float), 11.0(Float), 1(String), 1(String), 1(String), 1(Integer), 1(Long)
+2023-02-07 20:18:10,640 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-02-07 20:18:10,640 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-02-07 20:18:10,641 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-02-07 20:18:10,641 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-02-07 20:18:10,641 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,641 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,643 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,643 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,643 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-02-07 20:18:10,643 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-02-07 20:18:10,643 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,643 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,644 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,644 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,645 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-02-07 20:18:10,645 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-02-07 20:18:10,645 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1-3-2(String)
+2023-02-07 20:18:10,645 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1-3-2(String)
+2023-02-07 20:18:10,646 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,646 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,646 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-02-07 20:18:10,646 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-02-07 20:18:10,647 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-02-07 20:18:10,647 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2023-02-07 20:18:10,648 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,648 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-02-07 20:18:10,664 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: select one.id one_id, one.pname one_pname, one.parentid one_parentid, one.grade one_grade, one.media_type one_mediaType, one.start_time one_stratTime, one.end_time one_endTime, one.orderby one_orderby, one.course_id one_courseId, one.course_pub_id one_coursePubId, two.id two_id, two.pname two_pname, two.parentid two_parentid, two.grade two_grade, two.media_type two_mediaType, two.start_time two_stratTime, two.end_time two_endTime, two.orderby two_orderby, two.course_id two_courseId, two.course_pub_id two_coursePubId, m1.media_fileName mediaFilename, m1.id teachplanMeidaId, m1.media_id mediaId from teachplan one LEFT JOIN teachplan two on one.id = two.parentid LEFT JOIN teachplan_media m1 on m1.teachplan_id = two.id where one.parentid = 0 and one.course_id=? order by one.orderby, two.orderby
+2023-02-07 20:18:10,664 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: select one.id one_id, one.pname one_pname, one.parentid one_parentid, one.grade one_grade, one.media_type one_mediaType, one.start_time one_stratTime, one.end_time one_endTime, one.orderby one_orderby, one.course_id one_courseId, one.course_pub_id one_coursePubId, two.id two_id, two.pname two_pname, two.parentid two_parentid, two.grade two_grade, two.media_type two_mediaType, two.start_time two_stratTime, two.end_time two_endTime, two.orderby two_orderby, two.course_id two_courseId, two.course_pub_id two_coursePubId, m1.media_fileName mediaFilename, m1.id teachplanMeidaId, m1.media_id mediaId from teachplan one LEFT JOIN teachplan two on one.id = two.parentid LEFT JOIN teachplan_media m1 on m1.teachplan_id = two.id where one.parentid = 0 and one.course_id=? order by one.orderby, two.orderby
+2023-02-07 20:18:10,664 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,664 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1(Long)
+2023-02-07 20:18:10,679 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 5
+2023-02-07 20:18:10,679 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 5
+2023-02-07 20:18:13,573 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:30] - 【系统异常】前端传参有问题,功能暂未实现
+com.xuecheng.base.execption.XueChengPlusException: 前端传参有问题,功能暂未实现
+	at com.xuecheng.base.execption.XueChengPlusException.cast(XueChengPlusException.java:35)
+	at com.xuecheng.content.content.api.TeachplanController.moveup(TeachplanController.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-07 20:18:13,573 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:30] - 【系统异常】前端传参有问题,功能暂未实现
+com.xuecheng.base.execption.XueChengPlusException: 前端传参有问题,功能暂未实现
+	at com.xuecheng.base.execption.XueChengPlusException.cast(XueChengPlusException.java:35)
+	at com.xuecheng.content.content.api.TeachplanController.moveup(TeachplanController.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-07 20:18:15,130 ERROR [http-nio-63040-exec-8][GlobalExceptionHandler.java:30] - 【系统异常】前端传参有问题,功能暂未实现
+com.xuecheng.base.execption.XueChengPlusException: 前端传参有问题,功能暂未实现
+	at com.xuecheng.base.execption.XueChengPlusException.cast(XueChengPlusException.java:35)
+	at com.xuecheng.content.content.api.TeachplanController.movedown(TeachplanController.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-07 20:18:15,130 ERROR [http-nio-63040-exec-8][GlobalExceptionHandler.java:30] - 【系统异常】前端传参有问题,功能暂未实现
+com.xuecheng.base.execption.XueChengPlusException: 前端传参有问题,功能暂未实现
+	at com.xuecheng.base.execption.XueChengPlusException.cast(XueChengPlusException.java:35)
+	at com.xuecheng.content.content.api.TeachplanController.movedown(TeachplanController.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-07 20:18:17,186 ERROR [http-nio-63040-exec-9][GlobalExceptionHandler.java:30] - 【系统异常】前端传参有问题,功能暂未实现
+com.xuecheng.base.execption.XueChengPlusException: 前端传参有问题,功能暂未实现
+	at com.xuecheng.base.execption.XueChengPlusException.cast(XueChengPlusException.java:35)
+	at com.xuecheng.content.content.api.TeachplanController.moveup(TeachplanController.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-07 20:18:17,186 ERROR [http-nio-63040-exec-9][GlobalExceptionHandler.java:30] - 【系统异常】前端传参有问题,功能暂未实现
+com.xuecheng.base.execption.XueChengPlusException: 前端传参有问题,功能暂未实现
+	at com.xuecheng.base.execption.XueChengPlusException.cast(XueChengPlusException.java:35)
+	at com.xuecheng.content.content.api.TeachplanController.moveup(TeachplanController.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-07 20:18:17,453 ERROR [http-nio-63040-exec-6][GlobalExceptionHandler.java:30] - 【系统异常】前端传参有问题,功能暂未实现
+com.xuecheng.base.execption.XueChengPlusException: 前端传参有问题,功能暂未实现
+	at com.xuecheng.base.execption.XueChengPlusException.cast(XueChengPlusException.java:35)
+	at com.xuecheng.content.content.api.TeachplanController.movedown(TeachplanController.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-07 20:18:17,453 ERROR [http-nio-63040-exec-6][GlobalExceptionHandler.java:30] - 【系统异常】前端传参有问题,功能暂未实现
+com.xuecheng.base.execption.XueChengPlusException: 前端传参有问题,功能暂未实现
+	at com.xuecheng.base.execption.XueChengPlusException.cast(XueChengPlusException.java:35)
+	at com.xuecheng.content.content.api.TeachplanController.movedown(TeachplanController.java:109)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-02-07 20:18:19,273 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-02-07 20:18:19,273 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-02-07 20:18:19,273 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-02-07 20:18:19,273 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-02-07 20:18:39,024 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-02-07 20:18:39,024 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-02-07 20:18:39,024 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-02-07 20:18:39,024 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
